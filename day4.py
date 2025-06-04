@@ -14,3 +14,5 @@ def prime_or_not(nums):
 
 nums=int(input("Enter the number: "))
 prime_or_not(nums)
+
+
