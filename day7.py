@@ -23,7 +23,7 @@ for word in regex_message.split(" "):
      else:
           word_count[word]+=1
 
-# printing words occurences in sorted order        
+# printing words Occurrences in sorted order        
 #    for x in sorted(word_count.keys(),reverse=True): -->in reverse order
 for x in sorted(word_count.keys(),reverse=False):
      print(f"{x} : {word_count[x]}")
